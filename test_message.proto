@@ -1,0 +1,4 @@
+message TestMessage {
+  required int64 number1 = 1;
+  required int64 number2 = 2;
+}

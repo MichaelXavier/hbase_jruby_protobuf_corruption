@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (3.2.13)
+      i18n (= 0.6.1)
+      multi_json (~> 1.0)
+    ffi (1.8.1-java)
+    hbase-jruby (0.3.2-java)
+    i18n (0.6.1)
+    multi_json (1.7.6)
+    protobuf (2.7.10-java)
+      activesupport
+      ffi
+      multi_json
+      thor
+    rake (10.0.4)
+    thor (0.18.1)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  hbase-jruby (~> 0.3.2)
+  protobuf (~> 2.7.10)
+  rake
